@@ -2,24 +2,24 @@ package edu.icet.service.impl;
 
 import edu.icet.dtro.Student;
 import edu.icet.service.StudentService;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public class StudentServiceImpl implements StudentService {
+public class StudentVersionImplV2 implements StudentService {
+
+
     @Override
-    public void addStudent(Student customer) {
+    public void addStudent(Student students) {
 
     }
 
     @Override
-    public List<Student> getAll() {
+public List<Student> getAll() {
         return null;
     }
 
     @Override
     public String getVersion() {
-        return "1.0.0V";
-    }
-}
+        return "2.0.0V";
+    }  }
+
